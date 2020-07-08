@@ -90,7 +90,7 @@ if(window.opera) return window.opera.id;
 }
 function init(){
 if(gett('timecount')){
-setInterval(countDown, 1000);
+setInterval(countDown, 0);
 gett("timecount").innerHTML = time;
 }
 else{
